@@ -21,7 +21,7 @@ limitations under the License.
 rclcpp::Node::SharedPtr nodeh;
 
 // callback function called every time a message is received from the
-// topic "intm"
+// topic "intsub"
 int current = 0;
 int past = 0;
 
