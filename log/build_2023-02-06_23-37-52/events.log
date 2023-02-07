@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000259] (lab1) JobQueued: {'identifier': 'lab1', 'dependencies': OrderedDict()}
+[0.000332] (lab2) JobQueued: {'identifier': 'lab2', 'dependencies': OrderedDict()}
+[0.000400] (lab1) JobStarted: {'identifier': 'lab1'}
+[0.021695] (lab2) JobStarted: {'identifier': 'lab2'}
+[0.045963] (lab1) JobProgress: {'identifier': 'lab1', 'progress': 'cmake'}
+[0.047873] (lab1) JobProgress: {'identifier': 'lab1', 'progress': 'build'}
+[0.049655] (lab1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/admin/Desktop/CSE180/build/lab1', '--', '-j2', '-l2'], 'cwd': '/home/admin/Desktop/CSE180/build/lab1', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '1562'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1349'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/admin/Desktop/CSE180/install:/var/tmp/MRTP/MRTP/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'admin'), ('JOURNAL_STREAM', '8:34602'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/CSE180:@/tmp/.ICE-unix/1601,unix/CSE180:/tmp/.ICE-unix/1601'), ('INVOCATION_ID', '8f36641ffaaf4717873cfccac62a6061'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/73e846db_5f1c_403d_8818_36af204de09c'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/Desktop/CSE180/install/lab2:/home/admin/Desktop/CSE180/install/lab1:/var/tmp/MRTP/MRTP/install/talklisten:/var/tmp/MRTP/MRTP/install/multipletopics:/var/tmp/MRTP/MRTP/install/gazeboenvs:/var/tmp/MRTP/MRTP/install/examples:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Desktop/CSE180/build/lab1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/var/tmp/MRTP/MRTP/install/gazeboenvs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/admin/Desktop/CSE180/install/lab2:/home/admin/Desktop/CSE180/install/lab1:/var/tmp/MRTP/MRTP/install/talklisten:/var/tmp/MRTP/MRTP/install/multipletopics:/var/tmp/MRTP/MRTP/install/examples:/var/tmp/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy')]), 'shell': False}
+[0.102887] (-) TimerEvent: {}
+[0.111588] (lab2) JobProgress: {'identifier': 'lab2', 'progress': 'cmake'}
+[0.112855] (lab2) JobProgress: {'identifier': 'lab2', 'progress': 'build'}
+[0.124205] (lab2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/admin/Desktop/CSE180/build/lab2', '--', '-j2', '-l2'], 'cwd': '/home/admin/Desktop/CSE180/build/lab2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '1562'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1349'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/admin/Desktop/CSE180/install:/var/tmp/MRTP/MRTP/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'admin'), ('JOURNAL_STREAM', '8:34602'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/CSE180:@/tmp/.ICE-unix/1601,unix/CSE180:/tmp/.ICE-unix/1601'), ('INVOCATION_ID', '8f36641ffaaf4717873cfccac62a6061'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/73e846db_5f1c_403d_8818_36af204de09c'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/Desktop/CSE180/install/lab2:/home/admin/Desktop/CSE180/install/lab1:/var/tmp/MRTP/MRTP/install/talklisten:/var/tmp/MRTP/MRTP/install/multipletopics:/var/tmp/MRTP/MRTP/install/gazeboenvs:/var/tmp/MRTP/MRTP/install/examples:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Desktop/CSE180/build/lab2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/var/tmp/MRTP/MRTP/install/gazeboenvs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/admin/Desktop/CSE180/install/lab2:/home/admin/Desktop/CSE180/install/lab1:/var/tmp/MRTP/MRTP/install/talklisten:/var/tmp/MRTP/MRTP/install/multipletopics:/var/tmp/MRTP/MRTP/install/examples:/var/tmp/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy')]), 'shell': False}
+[0.203232] (-) TimerEvent: {}
+[0.322511] (-) TimerEvent: {}
+[0.409829] (lab1) StdoutLine: {'line': b'[ 50%] Built target intsubscriber\n'}
+[0.423266] (-) TimerEvent: {}
+[0.426246] (lab2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drawcircle\x1b[0m\n'}
+[0.495034] (lab1) StdoutLine: {'line': b'[100%] Built target intpublisher\n'}
+[0.536574] (-) TimerEvent: {}
+[0.549463] (lab1) CommandEnded: {'returncode': 0}
+[0.624653] (lab2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/drawcircle.dir/src/moveturtle.cpp.o\x1b[0m\n'}
+[0.645265] (-) TimerEvent: {}
+[0.725292] (lab1) JobProgress: {'identifier': 'lab1', 'progress': 'install'}
+[0.752742] (-) TimerEvent: {}
+[0.799309] (lab1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/admin/Desktop/CSE180/build/lab1'], 'cwd': '/home/admin/Desktop/CSE180/build/lab1', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '1562'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1349'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/admin/Desktop/CSE180/install:/var/tmp/MRTP/MRTP/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'admin'), ('JOURNAL_STREAM', '8:34602'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/CSE180:@/tmp/.ICE-unix/1601,unix/CSE180:/tmp/.ICE-unix/1601'), ('INVOCATION_ID', '8f36641ffaaf4717873cfccac62a6061'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/73e846db_5f1c_403d_8818_36af204de09c'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/Desktop/CSE180/install/lab2:/home/admin/Desktop/CSE180/install/lab1:/var/tmp/MRTP/MRTP/install/talklisten:/var/tmp/MRTP/MRTP/install/multipletopics:/var/tmp/MRTP/MRTP/install/gazeboenvs:/var/tmp/MRTP/MRTP/install/examples:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Desktop/CSE180/build/lab1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/var/tmp/MRTP/MRTP/install/gazeboenvs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/admin/Desktop/CSE180/install/lab2:/home/admin/Desktop/CSE180/install/lab1:/var/tmp/MRTP/MRTP/install/talklisten:/var/tmp/MRTP/MRTP/install/multipletopics:/var/tmp/MRTP/MRTP/install/examples:/var/tmp/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy')]), 'shell': False}
+[0.832938] (lab1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.833996] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/lib/lab1/intpublisher\n'}
+[0.835373] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/lib/lab1/intsubscriber\n'}
+[0.835674] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/ament_index/resource_index/package_run_dependencies/lab1\n'}
+[0.835951] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/ament_index/resource_index/parent_prefix_path/lab1\n'}
+[0.836226] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/environment/ament_prefix_path.sh\n'}
+[0.836499] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/environment/ament_prefix_path.dsv\n'}
+[0.836783] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/environment/path.sh\n'}
+[0.837022] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/environment/path.dsv\n'}
+[0.837292] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/local_setup.bash\n'}
+[0.837567] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/local_setup.sh\n'}
+[0.837868] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/local_setup.zsh\n'}
+[0.848601] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/local_setup.dsv\n'}
+[0.848699] (lab1) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/CSE180/install/lab1/share/lab1/package.dsv\n'}
+[0.848786] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/ament_index/resource_index/packages/lab1\n'}
+[0.848955] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/cmake/lab1Config.cmake\n'}
+[0.849096] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/cmake/lab1Config-version.cmake\n'}
+[0.849273] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/package.xml\n'}
+[0.849389] (lab1) CommandEnded: {'returncode': 0}
+[0.869111] (-) TimerEvent: {}
+[0.970203] (-) TimerEvent: {}
+[1.079326] (-) TimerEvent: {}
+[1.126706] (lab1) JobEnded: {'identifier': 'lab1', 'rc': 0}
+[1.181914] (-) TimerEvent: {}
+[1.282636] (-) TimerEvent: {}
+[1.384947] (-) TimerEvent: {}
+[1.496946] (-) TimerEvent: {}
+[1.621969] (-) TimerEvent: {}
+[1.735686] (-) TimerEvent: {}
+[1.837806] (-) TimerEvent: {}
+[1.984414] (-) TimerEvent: {}
+[2.100541] (-) TimerEvent: {}
+[2.207275] (-) TimerEvent: {}
+[2.308083] (-) TimerEvent: {}
+[2.419452] (-) TimerEvent: {}
+[2.522646] (-) TimerEvent: {}
+[2.637963] (-) TimerEvent: {}
+[2.782196] (-) TimerEvent: {}
+[2.887522] (-) TimerEvent: {}
+[2.991527] (-) TimerEvent: {}
+[3.096057] (-) TimerEvent: {}
+[3.234736] (-) TimerEvent: {}
+[3.369582] (-) TimerEvent: {}
+[3.471350] (-) TimerEvent: {}
+[3.572193] (-) TimerEvent: {}
+[3.673738] (-) TimerEvent: {}
+[3.776866] (-) TimerEvent: {}
+[3.878981] (-) TimerEvent: {}
+[4.005286] (-) TimerEvent: {}
+[4.113570] (-) TimerEvent: {}
+[4.237443] (-) TimerEvent: {}
+[4.344059] (-) TimerEvent: {}
+[4.448138] (-) TimerEvent: {}
+[4.552413] (-) TimerEvent: {}
+[4.662111] (-) TimerEvent: {}
+[4.788407] (-) TimerEvent: {}
+[4.895234] (-) TimerEvent: {}
+[5.030526] (-) TimerEvent: {}
+[5.132552] (-) TimerEvent: {}
+[5.233813] (-) TimerEvent: {}
+[5.336383] (-) TimerEvent: {}
+[5.443777] (-) TimerEvent: {}
+[5.554245] (-) TimerEvent: {}
+[5.657228] (-) TimerEvent: {}
+[5.764898] (-) TimerEvent: {}
+[5.887760] (-) TimerEvent: {}
+[5.988913] (-) TimerEvent: {}
+[6.119315] (-) TimerEvent: {}
+[6.242965] (-) TimerEvent: {}
+[6.353562] (-) TimerEvent: {}
+[6.495100] (-) TimerEvent: {}
+[6.601121] (-) TimerEvent: {}
+[6.709470] (-) TimerEvent: {}
+[6.810494] (-) TimerEvent: {}
+[6.911580] (-) TimerEvent: {}
+[7.126391] (-) TimerEvent: {}
+[7.240686] (-) TimerEvent: {}
+[7.342273] (-) TimerEvent: {}
+[7.445089] (-) TimerEvent: {}
+[7.550598] (-) TimerEvent: {}
+[7.689529] (-) TimerEvent: {}
+[7.797229] (-) TimerEvent: {}
+[7.928674] (-) TimerEvent: {}
+[8.048814] (-) TimerEvent: {}
+[8.060226] (lab2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable drawcircle\x1b[0m\n'}
+[8.151665] (-) TimerEvent: {}
+[8.260418] (-) TimerEvent: {}
+[8.370264] (-) TimerEvent: {}
+[8.432017] (lab2) StdoutLine: {'line': b'[100%] Built target drawcircle\n'}
+[8.480611] (-) TimerEvent: {}
+[8.491073] (lab2) CommandEnded: {'returncode': 0}
+[8.595430] (lab2) JobProgress: {'identifier': 'lab2', 'progress': 'install'}
+[8.599162] (-) TimerEvent: {}
+[8.627789] (lab2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/admin/Desktop/CSE180/build/lab2'], 'cwd': '/home/admin/Desktop/CSE180/build/lab2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '1562'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1349'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/admin/Desktop/CSE180/install:/var/tmp/MRTP/MRTP/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'admin'), ('JOURNAL_STREAM', '8:34602'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/CSE180:@/tmp/.ICE-unix/1601,unix/CSE180:/tmp/.ICE-unix/1601'), ('INVOCATION_ID', '8f36641ffaaf4717873cfccac62a6061'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/73e846db_5f1c_403d_8818_36af204de09c'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/Desktop/CSE180/install/lab2:/home/admin/Desktop/CSE180/install/lab1:/var/tmp/MRTP/MRTP/install/talklisten:/var/tmp/MRTP/MRTP/install/multipletopics:/var/tmp/MRTP/MRTP/install/gazeboenvs:/var/tmp/MRTP/MRTP/install/examples:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Desktop/CSE180/build/lab2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/var/tmp/MRTP/MRTP/install/gazeboenvs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/admin/Desktop/CSE180/install/lab2:/home/admin/Desktop/CSE180/install/lab1:/var/tmp/MRTP/MRTP/install/talklisten:/var/tmp/MRTP/MRTP/install/multipletopics:/var/tmp/MRTP/MRTP/install/examples:/var/tmp/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy')]), 'shell': False}
+[8.639782] (lab2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.640193] (lab2) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/CSE180/install/lab2/lib/lab2/drawcircle\n'}
+[8.641569] (lab2) StdoutLine: {'line': b'-- Set runtime path of "/home/admin/Desktop/CSE180/install/lab2/lib/lab2/drawcircle" to ""\n'}
+[8.641918] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/ament_index/resource_index/package_run_dependencies/lab2\n'}
+[8.642208] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/ament_index/resource_index/parent_prefix_path/lab2\n'}
+[8.642385] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/environment/ament_prefix_path.sh\n'}
+[8.642730] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/environment/ament_prefix_path.dsv\n'}
+[8.642959] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/environment/path.sh\n'}
+[8.643104] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/environment/path.dsv\n'}
+[8.643361] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/local_setup.bash\n'}
+[8.643513] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/local_setup.sh\n'}
+[8.643719] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/local_setup.zsh\n'}
+[8.643877] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/local_setup.dsv\n'}
+[8.644120] (lab2) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/CSE180/install/lab2/share/lab2/package.dsv\n'}
+[8.644262] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/ament_index/resource_index/packages/lab2\n'}
+[8.644388] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/cmake/lab2Config.cmake\n'}
+[8.644509] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/cmake/lab2Config-version.cmake\n'}
+[8.644628] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/package.xml\n'}
+[8.646616] (lab2) CommandEnded: {'returncode': 0}
+[8.714187] (-) TimerEvent: {}
+[8.799446] (lab2) JobEnded: {'identifier': 'lab2', 'rc': 0}
+[8.801735] (-) EventReactorShutdown: {}

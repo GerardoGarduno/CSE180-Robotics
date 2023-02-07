@@ -1,0 +1,4 @@
+Invoking command in '/home/admin/Desktop/CSE180/build/lab2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/CSE180/build/lab2 -- -j2 -l2
+Invoked command in '/home/admin/Desktop/CSE180/build/lab2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/CSE180/build/lab2 -- -j2 -l2
+Invoking command in '/home/admin/Desktop/CSE180/build/lab2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/admin/Desktop/CSE180/build/lab2
+Invoked command in '/home/admin/Desktop/CSE180/build/lab2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/admin/Desktop/CSE180/build/lab2

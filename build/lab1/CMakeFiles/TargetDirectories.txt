@@ -1,0 +1,11 @@
+/home/admin/Desktop/CSE180/build/lab1/CMakeFiles/install/strip.dir
+/home/admin/Desktop/CSE180/build/lab1/CMakeFiles/install/local.dir
+/home/admin/Desktop/CSE180/build/lab1/CMakeFiles/install.dir
+/home/admin/Desktop/CSE180/build/lab1/CMakeFiles/list_install_components.dir
+/home/admin/Desktop/CSE180/build/lab1/CMakeFiles/rebuild_cache.dir
+/home/admin/Desktop/CSE180/build/lab1/CMakeFiles/edit_cache.dir
+/home/admin/Desktop/CSE180/build/lab1/CMakeFiles/test.dir
+/home/admin/Desktop/CSE180/build/lab1/CMakeFiles/intsubscriber.dir
+/home/admin/Desktop/CSE180/build/lab1/CMakeFiles/intpublisher.dir
+/home/admin/Desktop/CSE180/build/lab1/CMakeFiles/lab1_uninstall.dir
+/home/admin/Desktop/CSE180/build/lab1/CMakeFiles/uninstall.dir

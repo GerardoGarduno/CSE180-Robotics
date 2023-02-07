@@ -14,11 +14,11 @@ int main(int argc,char **argv) {
 
   geometry_msgs::msg::Twist msg;
   while (rclcpp::ok()) { 
-    msg.linear.x = 1;    
-    msg.angular.z = 0;
+    msg.linear.x = 2;
+    msg.angular.z = M_PI/2;
     pub->publish(msg);
     rate.sleep();
-    msg.linear.x = 0;
+    msg.linear.x = 2;
     msg.angular.z = M_PI/2; 
     pub->publish(msg);
     rate.sleep(); 

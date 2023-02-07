@@ -1,0 +1,24 @@
+[0.133s] Invoking command in '/home/admin/Desktop/CSE180/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/var/tmp/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/CSE180/build/lab1 -- -j2 -l2
+[0.811s] [ 50%] Built target intpublisher
+[0.815s] [100%] Built target intsubscriber
+[0.839s] Invoked command in '/home/admin/Desktop/CSE180/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/var/tmp/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/CSE180/build/lab1 -- -j2 -l2
+[1.374s] Invoking command in '/home/admin/Desktop/CSE180/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/var/tmp/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake --install /home/admin/Desktop/CSE180/build/lab1
+[1.498s] -- Install configuration: ""
+[1.498s] -- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/lib/lab1/intpublisher
+[1.499s] -- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/lib/lab1/intsubscriber
+[1.500s] -- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/ament_index/resource_index/package_run_dependencies/lab1
+[1.500s] -- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/ament_index/resource_index/parent_prefix_path/lab1
+[1.501s] -- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/environment/ament_prefix_path.sh
+[1.505s] -- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/environment/ament_prefix_path.dsv
+[1.506s] -- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/environment/path.sh
+[1.506s] -- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/environment/path.dsv
+[1.506s] -- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/local_setup.bash
+[1.506s] -- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/local_setup.sh
+[1.507s] -- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/local_setup.zsh
+[1.507s] -- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/local_setup.dsv
+[1.507s] -- Installing: /home/admin/Desktop/CSE180/install/lab1/share/lab1/package.dsv
+[1.507s] -- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/ament_index/resource_index/packages/lab1
+[1.507s] -- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/cmake/lab1Config.cmake
+[1.507s] -- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/cmake/lab1Config-version.cmake
+[1.507s] -- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/package.xml
+[1.533s] Invoked command in '/home/admin/Desktop/CSE180/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/var/tmp/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake --install /home/admin/Desktop/CSE180/build/lab1
