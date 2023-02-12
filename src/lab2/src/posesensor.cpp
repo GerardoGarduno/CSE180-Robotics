@@ -30,6 +30,7 @@ void poseReceived(const turtlesim::msg::Pose::SharedPtr msg) {
    y = msg->y;
    theta = msg->theta;
    valid = true;
+
 }
 
 int main(int argc,char ** argv) {
@@ -37,6 +38,7 @@ int main(int argc,char ** argv) {
   rclcpp::init(argc,argv);
   rclcpp::Node::SharedPtr nodeh;
   nodeh = rclcpp::Node::make_shared("circlepose");
+  
 
   auto sub = nodeh->create_subscription<turtlesim::msg::Pose>
                                   ("turtle1/pose",10,&poseReceived);
@@ -48,14 +50,18 @@ int main(int argc,char ** argv) {
   
   while (rclcpp::ok()) {
     rclcpp::spin_some(nodeh);
+          RCLCPP_INFO(nodeh->get_logger(), "RECIEVED x: %f, y: %f, theta: %f",x,y,theta);
     if (valid) {
+
       poseToPublish.position.x = x;
       poseToPublish.position.y = y;
       poseToPublish.position.z = 0;
       q.setRPY(0,0,theta);
-      poseToPublish.orientation = tf2::toMsg(q);   
-      pub->publish(poseToPublish);
+      poseToPublish.orientation = tf2::toMsg(q);
+      //RCLCPP_INFO(nodeh->get_logger(), "RECIEVED x: %f, y: %f, theta: %f",x,y,theta);   
+      //pub->publish(poseToPublish);
       valid = false;
     }
+    
   }
 }

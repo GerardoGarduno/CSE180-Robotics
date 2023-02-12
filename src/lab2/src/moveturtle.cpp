@@ -13,12 +13,19 @@ int main(int argc,char **argv) {
       ("turtle1/cmd_vel",100);
 
   geometry_msgs::msg::Twist msg;
-  while (rclcpp::ok()) { 
-    msg.linear.x = 1;
-    rate.sleep();
-    msg.angular.z = M_PI/2;
-    rate.sleep();
-    pub->publish(msg);
+  while (rclcpp::ok()) {
+  
+  	msg.linear.x = 1.0;
+  	pub -> publish(msg);
+  	//RCLCPP_INFO(nodeh->get_logger(), "SENT x %f",msg.linear.x);
+  	rate.sleep();
+  	msg.angular.z = 0.5;
+  	pub -> publish(msg);
+  	//RCLCPP_INFO(nodeh->get_logger(), "SENT z %f",msg.angular.z);
+  	rate.sleep();
+  
+  
+
    
   }
 }
