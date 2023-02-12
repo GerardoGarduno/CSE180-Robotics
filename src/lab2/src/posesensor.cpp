@@ -14,41 +14,48 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-#include <rclcpp/rclcpp.hpp> // needed for basic functions
-#include <std_msgs/msg/int32.hpp> // to receive integers
-#include <std_msgs/msg/string.hpp> // to receive strings
+#include <rclcpp/rclcpp.hpp>
+#include <turtlesim/msg/pose.hpp>
+#include <geometry_msgs/msg/pose.hpp>
+#include <tf2/LinearMath/Quaternion.h>
+#include <tf2_geometry_msgs/tf2_geometry_msgs.h>
 
-rclcpp::Node::SharedPtr nodeh;
+float x;
+float y;
+float theta;
+bool valid;
 
-// callback function called every time a message is received from the
-// topic "intsub"
-int current = 0;
-int past = 0;
-
-void intCallback(const std_msgs::msg::Int32::SharedPtr msg) {
-	past = current;
-	current = msg->data;
-	int sum = past + current;
-  // print received integer to the screen
-  RCLCPP_INFO(nodeh->get_logger(),"sum of ints: %d",sum);
+void poseReceived(const turtlesim::msg::Pose::SharedPtr msg) {
+   x = msg->x;
+   y = msg->y;
+   theta = msg->theta;
+   valid = true;
 }
 
+int main(int argc,char ** argv) {
 
-int main(int argc,char **argv) {
+  rclcpp::init(argc,argv);
+  rclcpp::Node::SharedPtr nodeh;
+  nodeh = rclcpp::Node::make_shared("circlepose");
 
-  rclcpp::init(argc,argv); // initialize ROS subsystem
+  auto sub = nodeh->create_subscription<turtlesim::msg::Pose>
+                                  ("turtle1/pose",10,&poseReceived);
+  auto pub = nodeh->create_publisher<geometry_msgs::msg::Pose>("pose",1000);
+    
+  geometry_msgs::msg::Pose poseToPublish;
+  tf2::Quaternion q;
+  valid = false;
   
-  rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr subi;
-  
-  nodeh = rclcpp::Node::make_shared("intsub"); // create node instance
-                                           
-   // subscribe to topic "intm" an register the callback function
-  subi = nodeh->create_subscription<std_msgs::msg::Int32>("inttopic",10,&intCallback);
-  rclcpp::spin(nodeh); // wait for messages and process them
- 
-  rclcpp::shutdown();
-  return 0;
-  
+  while (rclcpp::ok()) {
+    rclcpp::spin_some(nodeh);
+    if (valid) {
+      poseToPublish.position.x = x;
+      poseToPublish.position.y = y;
+      poseToPublish.position.z = 0;
+      q.setRPY(0,0,theta);
+      poseToPublish.orientation = tf2::toMsg(q);   
+      pub->publish(poseToPublish);
+      valid = false;
+    }
+  }
 }
-
-

@@ -27,15 +27,15 @@ find_package(tf2_ros REQUIRED)
 find_package(rcl_interfaces REQUIRED)
 
 add_executable(drawcircle src/moveturtle.cpp)
+add_executable(circlepose src/posesensor.cpp)
 
 ament_target_dependencies(drawcircle rclcpp geometry_msgs)
-#ament_target_dependencies(drawcirclefb rclcpp geometry_msgs turtlesim)
-
+ament_target_dependencies(circlepose rclcpp geometry_msgs tf2 turtlesim)
 
 
 install(TARGETS drawcircle DESTINATION lib/${PROJECT_NAME})
+install(TARGETS circlepose DESTINATION lib/${PROJECT_NAME})
 
-#install(TARGETS drawcirclefb DESTINATION lib/${PROJECT_NAME})
 
 
 #install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
