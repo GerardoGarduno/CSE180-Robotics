@@ -1,0 +1,255 @@
+[0.000000] (-) TimerEvent: {}
+[0.000299] (lab1) JobQueued: {'identifier': 'lab1', 'dependencies': OrderedDict()}
+[0.000357] (lab2) JobQueued: {'identifier': 'lab2', 'dependencies': OrderedDict()}
+[0.000483] (lab1) JobStarted: {'identifier': 'lab1'}
+[0.031714] (lab2) JobStarted: {'identifier': 'lab2'}
+[0.108638] (lab1) JobProgress: {'identifier': 'lab1', 'progress': 'cmake'}
+[0.109150] (-) TimerEvent: {}
+[0.125757] (lab1) JobProgress: {'identifier': 'lab1', 'progress': 'build'}
+[0.125843] (lab1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/admin/Desktop/CSE180/build/lab1', '--', '-j2', '-l2'], 'cwd': '/home/admin/Desktop/CSE180/build/lab1', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '1562'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/admin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1349'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'admin'), ('JOURNAL_STREAM', '8:34602'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/CSE180:@/tmp/.ICE-unix/1601,unix/CSE180:/tmp/.ICE-unix/1601'), ('INVOCATION_ID', '8f36641ffaaf4717873cfccac62a6061'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bfe6cce6_835b_4264_86ca_de6438b4da43'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.180'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Desktop/CSE180/build/lab1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.131664] (lab2) JobProgress: {'identifier': 'lab2', 'progress': 'cmake'}
+[0.235545] (lab2) JobProgress: {'identifier': 'lab2', 'progress': 'build'}
+[0.241230] (-) TimerEvent: {}
+[0.255331] (lab2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/admin/Desktop/CSE180/build/lab2', '--', '-j2', '-l2'], 'cwd': '/home/admin/Desktop/CSE180/build/lab2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '1562'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/admin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1349'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'admin'), ('JOURNAL_STREAM', '8:34602'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/CSE180:@/tmp/.ICE-unix/1601,unix/CSE180:/tmp/.ICE-unix/1601'), ('INVOCATION_ID', '8f36641ffaaf4717873cfccac62a6061'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bfe6cce6_835b_4264_86ca_de6438b4da43'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.180'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Desktop/CSE180/build/lab2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.347797] (-) TimerEvent: {}
+[0.450302] (-) TimerEvent: {}
+[0.573888] (-) TimerEvent: {}
+[0.675942] (-) TimerEvent: {}
+[0.763654] (lab2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drawcircle\x1b[0m\n'}
+[0.776766] (-) TimerEvent: {}
+[0.793433] (lab1) StdoutLine: {'line': b'[ 50%] Built target intsubscriber\n'}
+[0.860801] (lab1) StdoutLine: {'line': b'[100%] Built target intpublisher\n'}
+[0.887704] (-) TimerEvent: {}
+[0.892604] (lab1) CommandEnded: {'returncode': 0}
+[0.965995] (lab2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/drawcircle.dir/src/moveturtle.cpp.o\x1b[0m\n'}
+[0.996329] (-) TimerEvent: {}
+[1.128790] (-) TimerEvent: {}
+[1.189660] (lab1) JobProgress: {'identifier': 'lab1', 'progress': 'install'}
+[1.244123] (-) TimerEvent: {}
+[1.268817] (lab1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/admin/Desktop/CSE180/build/lab1'], 'cwd': '/home/admin/Desktop/CSE180/build/lab1', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '1562'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/admin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1349'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'admin'), ('JOURNAL_STREAM', '8:34602'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/CSE180:@/tmp/.ICE-unix/1601,unix/CSE180:/tmp/.ICE-unix/1601'), ('INVOCATION_ID', '8f36641ffaaf4717873cfccac62a6061'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bfe6cce6_835b_4264_86ca_de6438b4da43'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.180'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Desktop/CSE180/build/lab1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.301465] (lab1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.308914] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/lib/lab1/intpublisher\n'}
+[1.309927] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/lib/lab1/intsubscriber\n'}
+[1.310544] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/ament_index/resource_index/package_run_dependencies/lab1\n'}
+[1.310944] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/ament_index/resource_index/parent_prefix_path/lab1\n'}
+[1.311281] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/environment/ament_prefix_path.sh\n'}
+[1.312151] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/environment/ament_prefix_path.dsv\n'}
+[1.312842] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/environment/path.sh\n'}
+[1.313227] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/environment/path.dsv\n'}
+[1.313906] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/local_setup.bash\n'}
+[1.314253] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/local_setup.sh\n'}
+[1.314640] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/local_setup.zsh\n'}
+[1.315014] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/local_setup.dsv\n'}
+[1.315754] (lab1) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/CSE180/install/lab1/share/lab1/package.dsv\n'}
+[1.316330] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/ament_index/resource_index/packages/lab1\n'}
+[1.316773] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/cmake/lab1Config.cmake\n'}
+[1.317288] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/cmake/lab1Config-version.cmake\n'}
+[1.317763] (lab1) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab1/share/lab1/package.xml\n'}
+[1.325606] (lab1) CommandEnded: {'returncode': 0}
+[1.378656] (-) TimerEvent: {}
+[1.492997] (-) TimerEvent: {}
+[1.602477] (-) TimerEvent: {}
+[1.707304] (-) TimerEvent: {}
+[1.751915] (lab1) JobEnded: {'identifier': 'lab1', 'rc': 0}
+[1.807440] (-) TimerEvent: {}
+[1.908080] (-) TimerEvent: {}
+[2.026839] (-) TimerEvent: {}
+[2.127788] (-) TimerEvent: {}
+[2.234143] (-) TimerEvent: {}
+[2.342872] (-) TimerEvent: {}
+[2.452162] (-) TimerEvent: {}
+[2.552631] (-) TimerEvent: {}
+[2.662339] (-) TimerEvent: {}
+[2.773229] (-) TimerEvent: {}
+[2.875144] (-) TimerEvent: {}
+[2.977043] (-) TimerEvent: {}
+[3.077520] (-) TimerEvent: {}
+[3.179144] (-) TimerEvent: {}
+[3.288248] (-) TimerEvent: {}
+[3.391114] (-) TimerEvent: {}
+[3.499854] (-) TimerEvent: {}
+[3.604235] (-) TimerEvent: {}
+[3.708736] (-) TimerEvent: {}
+[3.815576] (-) TimerEvent: {}
+[3.927598] (-) TimerEvent: {}
+[4.028334] (-) TimerEvent: {}
+[4.128844] (-) TimerEvent: {}
+[4.229464] (-) TimerEvent: {}
+[4.333797] (-) TimerEvent: {}
+[4.437539] (-) TimerEvent: {}
+[4.552251] (-) TimerEvent: {}
+[4.654398] (-) TimerEvent: {}
+[4.762683] (-) TimerEvent: {}
+[4.874782] (-) TimerEvent: {}
+[4.997197] (-) TimerEvent: {}
+[5.099949] (-) TimerEvent: {}
+[5.200629] (-) TimerEvent: {}
+[5.301137] (-) TimerEvent: {}
+[5.401749] (-) TimerEvent: {}
+[5.505048] (-) TimerEvent: {}
+[5.610686] (-) TimerEvent: {}
+[5.714381] (-) TimerEvent: {}
+[5.829533] (-) TimerEvent: {}
+[5.930126] (-) TimerEvent: {}
+[6.053830] (-) TimerEvent: {}
+[6.156440] (-) TimerEvent: {}
+[6.269996] (-) TimerEvent: {}
+[6.379376] (-) TimerEvent: {}
+[6.492463] (-) TimerEvent: {}
+[6.609921] (-) TimerEvent: {}
+[6.731766] (-) TimerEvent: {}
+[6.834562] (-) TimerEvent: {}
+[6.936915] (-) TimerEvent: {}
+[7.038244] (-) TimerEvent: {}
+[7.155656] (-) TimerEvent: {}
+[7.260109] (-) TimerEvent: {}
+[7.387973] (-) TimerEvent: {}
+[7.505671] (-) TimerEvent: {}
+[7.606585] (-) TimerEvent: {}
+[7.707849] (-) TimerEvent: {}
+[7.808416] (-) TimerEvent: {}
+[7.944776] (-) TimerEvent: {}
+[8.046697] (-) TimerEvent: {}
+[8.148483] (-) TimerEvent: {}
+[8.257876] (-) TimerEvent: {}
+[8.363308] (-) TimerEvent: {}
+[8.465431] (-) TimerEvent: {}
+[8.566384] (-) TimerEvent: {}
+[8.670615] (-) TimerEvent: {}
+[8.794714] (-) TimerEvent: {}
+[8.911179] (-) TimerEvent: {}
+[9.014208] (-) TimerEvent: {}
+[9.118786] (-) TimerEvent: {}
+[9.219330] (-) TimerEvent: {}
+[9.320248] (-) TimerEvent: {}
+[9.425437] (-) TimerEvent: {}
+[9.534918] (-) TimerEvent: {}
+[9.655156] (-) TimerEvent: {}
+[9.777304] (-) TimerEvent: {}
+[9.878053] (-) TimerEvent: {}
+[9.982854] (-) TimerEvent: {}
+[10.092936] (-) TimerEvent: {}
+[10.193799] (-) TimerEvent: {}
+[10.303083] (-) TimerEvent: {}
+[10.411506] (-) TimerEvent: {}
+[10.532531] (-) TimerEvent: {}
+[10.634002] (-) TimerEvent: {}
+[10.746085] (-) TimerEvent: {}
+[10.861684] (-) TimerEvent: {}
+[10.966822] (-) TimerEvent: {}
+[11.101753] (-) TimerEvent: {}
+[11.213234] (-) TimerEvent: {}
+[11.333671] (-) TimerEvent: {}
+[11.439171] (-) TimerEvent: {}
+[11.543922] (-) TimerEvent: {}
+[11.658687] (-) TimerEvent: {}
+[11.768696] (-) TimerEvent: {}
+[11.875024] (-) TimerEvent: {}
+[11.976380] (-) TimerEvent: {}
+[12.079289] (-) TimerEvent: {}
+[12.207936] (-) TimerEvent: {}
+[12.308842] (-) TimerEvent: {}
+[12.409526] (-) TimerEvent: {}
+[12.512088] (-) TimerEvent: {}
+[12.626322] (-) TimerEvent: {}
+[12.742846] (-) TimerEvent: {}
+[12.858465] (-) TimerEvent: {}
+[12.961225] (-) TimerEvent: {}
+[13.082765] (-) TimerEvent: {}
+[13.187875] (-) TimerEvent: {}
+[13.293099] (-) TimerEvent: {}
+[13.409594] (-) TimerEvent: {}
+[13.510482] (-) TimerEvent: {}
+[13.617364] (-) TimerEvent: {}
+[13.726115] (-) TimerEvent: {}
+[13.830302] (-) TimerEvent: {}
+[13.936651] (-) TimerEvent: {}
+[14.041358] (-) TimerEvent: {}
+[14.168746] (-) TimerEvent: {}
+[14.273364] (-) TimerEvent: {}
+[14.393176] (-) TimerEvent: {}
+[14.494287] (-) TimerEvent: {}
+[14.611226] (-) TimerEvent: {}
+[14.718376] (-) TimerEvent: {}
+[14.825287] (-) TimerEvent: {}
+[14.929569] (-) TimerEvent: {}
+[15.058841] (-) TimerEvent: {}
+[15.165904] (-) TimerEvent: {}
+[15.268223] (-) TimerEvent: {}
+[15.378843] (-) TimerEvent: {}
+[15.488501] (-) TimerEvent: {}
+[15.605040] (-) TimerEvent: {}
+[15.717185] (-) TimerEvent: {}
+[15.843078] (-) TimerEvent: {}
+[15.943814] (-) TimerEvent: {}
+[16.046138] (-) TimerEvent: {}
+[16.150744] (-) TimerEvent: {}
+[16.263061] (-) TimerEvent: {}
+[16.382021] (-) TimerEvent: {}
+[16.490711] (-) TimerEvent: {}
+[16.593573] (-) TimerEvent: {}
+[16.694187] (-) TimerEvent: {}
+[16.794699] (-) TimerEvent: {}
+[16.905306] (-) TimerEvent: {}
+[17.007235] (-) TimerEvent: {}
+[17.120415] (-) TimerEvent: {}
+[17.223802] (-) TimerEvent: {}
+[17.324285] (-) TimerEvent: {}
+[17.428547] (-) TimerEvent: {}
+[17.532051] (-) TimerEvent: {}
+[17.648911] (-) TimerEvent: {}
+[17.764818] (-) TimerEvent: {}
+[17.865497] (-) TimerEvent: {}
+[17.970013] (-) TimerEvent: {}
+[18.080414] (-) TimerEvent: {}
+[18.181307] (-) TimerEvent: {}
+[18.294328] (-) TimerEvent: {}
+[18.397870] (-) TimerEvent: {}
+[18.499691] (-) TimerEvent: {}
+[18.600272] (-) TimerEvent: {}
+[18.702518] (-) TimerEvent: {}
+[18.812661] (-) TimerEvent: {}
+[18.922343] (-) TimerEvent: {}
+[19.030498] (-) TimerEvent: {}
+[19.141494] (-) TimerEvent: {}
+[19.253700] (-) TimerEvent: {}
+[19.369370] (-) TimerEvent: {}
+[19.471413] (-) TimerEvent: {}
+[19.476117] (lab2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable drawcircle\x1b[0m\n'}
+[19.571622] (-) TimerEvent: {}
+[19.672402] (-) TimerEvent: {}
+[19.779195] (-) TimerEvent: {}
+[19.880887] (-) TimerEvent: {}
+[19.992983] (-) TimerEvent: {}
+[20.099609] (-) TimerEvent: {}
+[20.223953] (-) TimerEvent: {}
+[20.228728] (lab2) StdoutLine: {'line': b'[100%] Built target drawcircle\n'}
+[20.269675] (lab2) CommandEnded: {'returncode': 0}
+[20.322334] (-) TimerEvent: {}
+[20.393215] (lab2) JobProgress: {'identifier': 'lab2', 'progress': 'install'}
+[20.393388] (lab2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/admin/Desktop/CSE180/build/lab2'], 'cwd': '/home/admin/Desktop/CSE180/build/lab2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '1562'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/admin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1349'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'admin'), ('JOURNAL_STREAM', '8:34602'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/CSE180:@/tmp/.ICE-unix/1601,unix/CSE180:/tmp/.ICE-unix/1601'), ('INVOCATION_ID', '8f36641ffaaf4717873cfccac62a6061'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bfe6cce6_835b_4264_86ca_de6438b4da43'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.180'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Desktop/CSE180/build/lab2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[20.432947] (-) TimerEvent: {}
+[20.469252] (lab2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.471789] (lab2) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/CSE180/install/lab2/lib/lab2/drawcircle\n'}
+[20.478932] (lab2) StdoutLine: {'line': b'-- Set runtime path of "/home/admin/Desktop/CSE180/install/lab2/lib/lab2/drawcircle" to ""\n'}
+[20.481592] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/ament_index/resource_index/package_run_dependencies/lab2\n'}
+[20.482470] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/ament_index/resource_index/parent_prefix_path/lab2\n'}
+[20.482980] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/environment/ament_prefix_path.sh\n'}
+[20.483233] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/environment/ament_prefix_path.dsv\n'}
+[20.483419] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/environment/path.sh\n'}
+[20.483616] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/environment/path.dsv\n'}
+[20.485447] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/local_setup.bash\n'}
+[20.485582] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/local_setup.sh\n'}
+[20.485694] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/local_setup.zsh\n'}
+[20.485799] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/local_setup.dsv\n'}
+[20.485905] (lab2) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/CSE180/install/lab2/share/lab2/package.dsv\n'}
+[20.486009] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/ament_index/resource_index/packages/lab2\n'}
+[20.486161] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/cmake/lab2Config.cmake\n'}
+[20.486878] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/cmake/lab2Config-version.cmake\n'}
+[20.487241] (lab2) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/CSE180/install/lab2/share/lab2/package.xml\n'}
+[20.497107] (lab2) CommandEnded: {'returncode': 0}
+[20.534134] (-) TimerEvent: {}
+[20.653175] (-) TimerEvent: {}
+[20.795952] (-) TimerEvent: {}
+[20.800715] (lab2) JobEnded: {'identifier': 'lab2', 'rc': 0}
+[20.804653] (-) EventReactorShutdown: {}

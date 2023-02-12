@@ -1,4 +1,4 @@
-//example to move turtle in a square,
+//example to move turtle in a circle with stops
 #include <rclcpp/rclcpp.hpp>
 #include <geometry_msgs/msg/twist.hpp>
 
@@ -14,13 +14,11 @@ int main(int argc,char **argv) {
 
   geometry_msgs::msg::Twist msg;
   while (rclcpp::ok()) { 
-    msg.linear.x = 2;
-    msg.angular.z = M_PI/2;
-    pub->publish(msg);
+    msg.linear.x = 1;
     rate.sleep();
-    msg.linear.x = 2;
-    msg.angular.z = M_PI/2; 
+    msg.angular.z = M_PI/2;
+    rate.sleep();
     pub->publish(msg);
-    rate.sleep(); 
+   
   }
 }

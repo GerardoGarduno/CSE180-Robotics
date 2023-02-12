@@ -1,0 +1,204 @@
+[0.490s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.490s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f790482ba90>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f790482ba90>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7904835040>)
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.553s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/admin/Desktop/CSE180'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extension 'ignore_ament_install'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extensions ['colcon_pkg']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extension 'colcon_pkg'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extensions ['colcon_meta']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extension 'colcon_meta'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extensions ['ros']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extension 'ros'
+[0.808s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab1' with type 'ros.ament_cmake' and name 'lab1'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2) by extensions ['ignore', 'ignore_ament_install']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2) by extension 'ignore'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2) by extension 'ignore_ament_install'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2) by extensions ['colcon_pkg']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2) by extension 'colcon_pkg'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2) by extensions ['colcon_meta']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2) by extension 'colcon_meta'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2) by extensions ['ros']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2) by extension 'ros'
+[0.833s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab2' with type 'ros.ament_cmake' and name 'lab2'
+[0.833s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.833s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.833s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.833s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.833s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.168s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/foxy
+[1.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_args' from command line to 'None'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_target' from command line to 'None'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_clean_cache' from command line to 'False'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_clean_first' from command line to 'False'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_force_configure' from command line to 'False'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'ament_cmake_args' from command line to 'None'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'catkin_cmake_args' from command line to 'None'
+[1.669s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.669s] DEBUG:colcon.colcon_core.verb:Building package 'lab1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/admin/Desktop/CSE180/build/lab1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/admin/Desktop/CSE180/install/lab1', 'merge_install': False, 'path': '/home/admin/Desktop/CSE180/src/lab1', 'symlink_install': False, 'test_result_base': None}
+[1.671s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_args' from command line to 'None'
+[1.671s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_target' from command line to 'None'
+[1.671s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.671s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.671s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_clean_first' from command line to 'False'
+[1.671s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_force_configure' from command line to 'False'
+[1.671s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'ament_cmake_args' from command line to 'None'
+[1.671s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.671s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.671s] DEBUG:colcon.colcon_core.verb:Building package 'lab2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/admin/Desktop/CSE180/build/lab2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/admin/Desktop/CSE180/install/lab2', 'merge_install': False, 'path': '/home/admin/Desktop/CSE180/src/lab2', 'symlink_install': False, 'test_result_base': None}
+[1.672s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.684s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.684s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/admin/Desktop/CSE180/src/lab1' with build type 'ament_cmake'
+[1.685s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/admin/Desktop/CSE180/src/lab1'
+[1.692s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.693s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.694s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.706s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/admin/Desktop/CSE180/src/lab2' with build type 'ament_cmake'
+[1.707s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/admin/Desktop/CSE180/src/lab2'
+[1.711s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.712s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/admin/Desktop/CSE180/build/lab1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/CSE180/build/lab1 -- -j2 -l2
+[1.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/admin/Desktop/CSE180/build/lab2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/CSE180/build/lab2 -- -j2 -l2
+[2.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/admin/Desktop/CSE180/build/lab1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/CSE180/build/lab1 -- -j2 -l2
+[2.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/admin/Desktop/CSE180/build/lab1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/admin/Desktop/CSE180/build/lab1
+[2.853s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab1)
+[2.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/admin/Desktop/CSE180/build/lab1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/admin/Desktop/CSE180/build/lab1
+[2.886s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab1' for CMake module files
+[2.888s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab1' for CMake config files
+[2.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1', 'cmake_prefix_path')
+[2.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/admin/Desktop/CSE180/install/lab1/share/lab1/hook/cmake_prefix_path.ps1'
+[2.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/admin/Desktop/CSE180/install/lab1/share/lab1/hook/cmake_prefix_path.dsv'
+[2.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/admin/Desktop/CSE180/install/lab1/share/lab1/hook/cmake_prefix_path.sh'
+[2.899s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab1/lib'
+[2.900s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab1/bin'
+[2.900s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab1/lib/pkgconfig/lab1.pc'
+[2.901s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab1/lib/python3.8/site-packages'
+[2.902s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab1/bin'
+[2.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/CSE180/install/lab1/share/lab1/package.ps1'
+[2.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/admin/Desktop/CSE180/install/lab1/share/lab1/package.dsv'
+[2.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/CSE180/install/lab1/share/lab1/package.sh'
+[2.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/CSE180/install/lab1/share/lab1/package.bash'
+[2.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/CSE180/install/lab1/share/lab1/package.zsh'
+[2.917s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/admin/Desktop/CSE180/install/lab1/share/colcon-core/packages/lab1)
+[3.199s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab1)
+[3.205s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab1' for CMake module files
+[3.207s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab1' for CMake config files
+[3.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1', 'cmake_prefix_path')
+[3.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/admin/Desktop/CSE180/install/lab1/share/lab1/hook/cmake_prefix_path.ps1'
+[3.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/admin/Desktop/CSE180/install/lab1/share/lab1/hook/cmake_prefix_path.dsv'
+[3.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/admin/Desktop/CSE180/install/lab1/share/lab1/hook/cmake_prefix_path.sh'
+[3.233s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab1/lib'
+[3.233s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab1/bin'
+[3.234s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab1/lib/pkgconfig/lab1.pc'
+[3.234s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab1/lib/python3.8/site-packages'
+[3.235s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab1/bin'
+[3.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/CSE180/install/lab1/share/lab1/package.ps1'
+[3.285s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/admin/Desktop/CSE180/install/lab1/share/lab1/package.dsv'
+[3.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/CSE180/install/lab1/share/lab1/package.sh'
+[3.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/CSE180/install/lab1/share/lab1/package.bash'
+[3.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/CSE180/install/lab1/share/lab1/package.zsh'
+[3.291s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/admin/Desktop/CSE180/install/lab1/share/colcon-core/packages/lab1)
+[15.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/admin/Desktop/CSE180/build/lab2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/CSE180/build/lab2 -- -j2 -l2
+[15.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/admin/Desktop/CSE180/build/lab2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/admin/Desktop/CSE180/build/lab2
+[15.669s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab2)
+[15.681s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab2' for CMake module files
+[15.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/admin/Desktop/CSE180/build/lab2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/admin/Desktop/CSE180/build/lab2
+[15.683s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab2' for CMake config files
+[15.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2', 'cmake_prefix_path')
+[15.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/admin/Desktop/CSE180/install/lab2/share/lab2/hook/cmake_prefix_path.ps1'
+[15.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/admin/Desktop/CSE180/install/lab2/share/lab2/hook/cmake_prefix_path.dsv'
+[15.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/admin/Desktop/CSE180/install/lab2/share/lab2/hook/cmake_prefix_path.sh'
+[15.768s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab2/lib'
+[15.768s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab2/bin'
+[15.768s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab2/lib/pkgconfig/lab2.pc'
+[15.769s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab2/lib/python3.8/site-packages'
+[15.770s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab2/bin'
+[15.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/CSE180/install/lab2/share/lab2/package.ps1'
+[15.776s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/admin/Desktop/CSE180/install/lab2/share/lab2/package.dsv'
+[15.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/CSE180/install/lab2/share/lab2/package.sh'
+[15.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/CSE180/install/lab2/share/lab2/package.bash'
+[15.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/CSE180/install/lab2/share/lab2/package.zsh'
+[15.781s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/admin/Desktop/CSE180/install/lab2/share/colcon-core/packages/lab2)
+[15.853s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab2)
+[15.856s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab2' for CMake module files
+[15.857s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab2' for CMake config files
+[15.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2', 'cmake_prefix_path')
+[15.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/admin/Desktop/CSE180/install/lab2/share/lab2/hook/cmake_prefix_path.ps1'
+[15.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/admin/Desktop/CSE180/install/lab2/share/lab2/hook/cmake_prefix_path.dsv'
+[15.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/admin/Desktop/CSE180/install/lab2/share/lab2/hook/cmake_prefix_path.sh'
+[15.864s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab2/lib'
+[15.864s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab2/bin'
+[15.864s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab2/lib/pkgconfig/lab2.pc'
+[15.865s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab2/lib/python3.8/site-packages'
+[15.865s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/CSE180/install/lab2/bin'
+[15.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/CSE180/install/lab2/share/lab2/package.ps1'
+[15.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/admin/Desktop/CSE180/install/lab2/share/lab2/package.dsv'
+[15.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/CSE180/install/lab2/share/lab2/package.sh'
+[15.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/CSE180/install/lab2/share/lab2/package.bash'
+[15.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/CSE180/install/lab2/share/lab2/package.zsh'
+[15.877s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/admin/Desktop/CSE180/install/lab2/share/colcon-core/packages/lab2)
+[15.878s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.878s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.878s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.878s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.897s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.898s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.898s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.023s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.025s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/admin/Desktop/CSE180/install/local_setup.ps1'
+[16.028s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/admin/Desktop/CSE180/install/_local_setup_util_ps1.py'
+[16.031s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/admin/Desktop/CSE180/install/setup.ps1'
+[16.038s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/admin/Desktop/CSE180/install/local_setup.sh'
+[16.043s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/admin/Desktop/CSE180/install/_local_setup_util_sh.py'
+[16.049s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/admin/Desktop/CSE180/install/setup.sh'
+[16.070s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/admin/Desktop/CSE180/install/local_setup.bash'
+[16.082s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/admin/Desktop/CSE180/install/setup.bash'
+[16.120s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/admin/Desktop/CSE180/install/local_setup.zsh'
+[16.121s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/admin/Desktop/CSE180/install/setup.zsh'
